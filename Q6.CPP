@@ -17,7 +17,9 @@ void main()
 		cout<<"\nEnter a string:";
 		cin>>str1
 		;
-		for(int len=0;str1[len]!='\0';len++);
+		int len = 0;
+		while(str1[len]!='\0')
+			len++;
 		cout<<"\nThe length of the string is "<<len;
 		break;
 
@@ -26,14 +28,15 @@ void main()
 		cin>>str1;
 		cout<<"\nEnter second string:";
 		cin>>str2;
-			for(int i=0;str1[i]!='\0';i++)
-			{
-			if(str1[i]==str2[i])
-			flag=1;
-			else
-			flag=0;
+		int i=0 , flag = 1;	
+		while(str1[i] != '\0')
+		{
+			if(str1[i] != str2[i])
+			{	flag = 0;
+			 	break;
 			}
-		if(flag==1)
+		}	
+		if(flag)
 		cout<<"\n Both the strings are equal";
 		else
 		cout<<"\nBoth the strings are not equal";
