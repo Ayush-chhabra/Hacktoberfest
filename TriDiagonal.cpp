@@ -5,9 +5,7 @@ using namespace std;
 class TriDiagonal
 {
 private:
-int n;
-int *A;
-
+	
 public:
 
 TriDiagonal(int n)
