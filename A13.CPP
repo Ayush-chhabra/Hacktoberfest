@@ -69,7 +69,7 @@ void main()
 {
 clrscr();
 int choice;
-
+info i;
 do
 {
 cout<<"\n1.append record";
@@ -77,16 +77,10 @@ cout<<"\n2.display record";
 cout<<"\n3.exit";
 cout<<"\nenter your choice: ";
 cin>>choice;
-switch(choice)
-{
-info i;
-case 1: i.add_record();
-	break;
-case 2: i.display_record();
-	break;
-}
-}while(choice!=3);
-
- getch();
+if(choice == 1)
+	i.add_record();
+else if(choice == 2)
+	i.display_record();
+getch();
  }
 
