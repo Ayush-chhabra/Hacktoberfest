@@ -5,7 +5,8 @@ using namespace std;
 class TriDiagonal
 {
 private:
-	
+	int n;
+	int * A;
 public:
 
 TriDiagonal(int n)
@@ -43,7 +44,11 @@ int TriDiagonal::get(int i,int j)
 
     if(i-j==1)
       return A[j-1];
+    else if(i==j)
+      return A[n-1+j-1];
 
+    else if(i-j==-1)
+      return A[n+n-1+j-2];
    
 
     else
