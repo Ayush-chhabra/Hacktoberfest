@@ -65,11 +65,7 @@ int LowerTri::get(int i,int j)
 
      		cout<<"Enter the row and column of the element:\n";
      		cin>>r>>c;
-     		  if (r<1||c<1||r>n||c>n)
-        {
-				cout<<"Incorrect values given";
-				continue;
-        }
+     		  
      		cout<<"Enter the element :  ";
      		cin>>val;
      		D->set(r,c,val);
@@ -80,11 +76,7 @@ int LowerTri::get(int i,int j)
      		cout<<"Enter the row and column of the element:\n";
      		cin>>r>>c;
 
-     		  if (r<1||c<1||r>n||c>n)
-        {
-				cout<<"Incorrect values given";
-				continue;
-        }
+     		 
      		cout<<"The element is  :  "<<D->get(r,c);
      	}
      	else if (ch==3)
