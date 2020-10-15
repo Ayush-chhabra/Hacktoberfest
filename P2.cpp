@@ -14,9 +14,9 @@ void Input(int arr[20][20]);
 void twoD::Input(int arr[20][20])
 {
     cout<<"Enter no. of Rows: ";
-    cin>>m;
-    cout<<"Enter no. of Columns: ";
     cin>>n;
+    cout<<"Enter no. of Columns: ";
+    cin>>m;
     cout<<"Enter elements of the Array: "<<endl;
 
     for(int i=0;i<m;i++)
