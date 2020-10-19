@@ -14,7 +14,7 @@
 	float n1,n2,n3,s;
 	cout<<"enter numbers to get their sum:\n";
 	cin>>n1>>n2>>n3;
-	s = sum(n1,n2);
+	sum(n1,n2);
 		cout<<"s";
 	getch();
 	}
