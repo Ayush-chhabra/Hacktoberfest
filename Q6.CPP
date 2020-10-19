@@ -3,7 +3,7 @@
 void main()
 {
 	clrscr();
-	char str1[30],str2[30],str3[60];
+	char str1[],str2[30],str3[60];
 	int ch,flag=0;
 	cout<<"Select a string operation:-\n";
 	cout<<"1. Find string length\n";
