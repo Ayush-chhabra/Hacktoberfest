@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<math.h>
 
-struct complex
+class complex
 {
 	float rel;
 	float img;
