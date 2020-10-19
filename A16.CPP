@@ -10,7 +10,7 @@ struct node
 	int no ;
 	char name[20];
 	node*next;
-}*start;
+}start;
 
 
 	void Push_end(int,char);
