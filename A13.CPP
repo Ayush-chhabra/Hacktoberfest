@@ -1,5 +1,6 @@
 #include<fstream.h>
 #include<conio.h>
+#include<stdio.h>
 
 
 
