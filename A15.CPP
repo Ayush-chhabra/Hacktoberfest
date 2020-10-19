@@ -52,7 +52,7 @@ void main()
 					}
 
 				}
-				if(0)
+				if(flag>0)
 					cout<<"\nThe Element is Found at: "<<++flag<<" in the sorted array";
 				else
 					cout<<"\n No such Element";
